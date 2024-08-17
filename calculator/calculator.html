@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Cal</title>
+    <title>JS Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,13 +16,29 @@
                 <input type="number" class="number" name="" id="number1" autofocus autocomplete="off">
                 <input type="number" class="number" name="" id="number2">
             </div>
-            <p id="answer">Answer: </p>
-            <button id="check" onclick="check()">Check</button>
+            <div id="answer-fon">
+                <p id="answer"></p>
+            </div>
+            <div id="buttons">
+                <div id="buttons-1">
+                    <button id="addition" class="bt1" onclick="c1()">+</button>
+                    <button id="subtraction" class="bt1" onclick="c2()">-</button>
+                    <button id="multiplication" class="bt1" onclick="c3()">*</button>
+                    <button id="division" class="bt1" onclick="c4()">/</button>
+                </div>
+                <div id="buttons-2">
+                    <button id="clear" class="bt2" onclick="c5()">Clear</button>
+                </div>
+            </div>
         </div>
         <div id="calculator-2">
-            q
+            
         </div>
     </div>
     <script src="calculator.js"></script>
 </body>
 </html>
+
+
+
+<!-- (28; Javascript/calculator/calculator.html) <button id="backspace" class="bt2" onclick="c6()">Backspace</button> -->
