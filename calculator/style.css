@@ -53,7 +53,7 @@ body {
     padding-bottom: 0;
 }
 .number:focus {
-    border-bottom: 5px solid #fb4646;
+    border-bottom: 8px solid #fb4646;
     padding-bottom: 0;
 }
 #text {
@@ -89,12 +89,22 @@ body {
 #answer {
     color: #fb4646;
     font-size: 28px;
-    padding: 20px;
+    padding: 20px 20px 20px 0;
 }
 #answer-fon:hover {
     border: 3px solid #fb4646;
+    background-color: #10141f;
 }
 
+#answer-fon:hover #answer {
+    color: #ffffff;
+}
+#answer-fon:hover #bad1 {
+    color: #ffffff;
+}
+#answer-fon:hover #bad2 {
+    color: #ffffff;
+}
 #buttons {
     width: 100%;
 }
@@ -111,17 +121,43 @@ body {
     border-radius: 15px;
     border: none;
     font-size: 32px;
-    color: #586a8d;
+    color: #10141f;
     cursor: pointer;
     outline: none;
     margin: 5px;
+    box-shadow: 0 0 1px 3px #fb4646;
 }
 .bt1:hover {
     border: 8px solid #161d2f;
     border-radius:20px ;
     font-size: 24px;
     font-weight: 500;
+    color: #ffffff;
+    background-color: #fb4646;
+    box-shadow: 0 0 0 0     ;
+}
+.bt3:hover {
+    border: 8px solid #161d2f;
+    border-radius:20px ;
+    font-size: 24px;
+    font-weight: 700;
+    color: #10141f;
+    background-color: #fb4646;
+    box-shadow: 0 0 0 0 ;
+}
+
+.bt3 {
+    background-color: #10141f;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    border: none;
+    font-size: 32px;
     color: #fb4646;
+    cursor: pointer;
+    outline: none;
+    margin: 5px;
+    box-shadow: 0 0 1px 2px #ffffff;
 }
 
 #buttons-2 {
@@ -131,25 +167,51 @@ body {
     margin-bottom: 20px;
 }
 .bt2 {
-    width: 190px;
+    width: 180px;
     height: 80px;
     border-radius: 15px;
     border: none;
-    font-size: 30px;
-    color: #586a8d;
+    font-size: 34px;
+    color: #ffffff;
+    color: #10141f;
+    background-color: #586a8d;
     cursor: pointer;
     outline: none;
     margin-top: 5px;
+    box-shadow: 0 0 1px 3px #ffffff;
 }
 .bt2:hover {
-    border: 8px solid #161d2f;
-    border-radius:20px ;
+    width: 174px;
+    height: 64px;
+    border-radius:15px ;
     font-size: 24px;
     font-weight: 500;
     color: #fb4646;
+    background-color: #10141f;
+    box-shadow: 0 0 1px 2px #fb4646;
 }
-#bad {
+#bad1 {
     color: #586a8d;
-    font-size: 16px;
+    font-size: 18px;
+}
+#bad2 {
+    color: #fb4646;
+    font-size: 28px;
+    padding: 0 2px 0 10px;
 }
 
+.bt4 {
+    width: 190px;
+    height: 88px;
+    border-radius: 15px;
+    border: none;
+    font-size: 30px;
+    color: #ffffff;
+    color: #10141f;
+    background-color: #161d2f;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
