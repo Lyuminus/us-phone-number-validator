@@ -15,6 +15,7 @@ function c0() {
 function c1() {
     let asqer = document.getElementById("answer").innerText;
     let klop = error(asqer);
+    let asdf = examination2(asqer);
     if (asdf != 757) { 
         if (klop == 0) {
             document.getElementById("answer").innerText += "1";
@@ -28,6 +29,7 @@ function c1() {
 function c2() {
     let asqer = document.getElementById("answer").innerText;
     let klop = error(asqer);
+    let asdf = examination2(asqer);
     if (asdf != 757) { 
         if (klop == 0) {
             document.getElementById("answer").innerText += "2";
@@ -41,6 +43,7 @@ function c2() {
 function c3() {
     let asqer = document.getElementById("answer").innerText;
     let klop = error(asqer);
+    let asdf = examination2(asqer);
     if (asdf != 757) { 
         if (klop == 0) {
             document.getElementById("answer").innerText += "3";
@@ -54,6 +57,7 @@ function c3() {
 function c4() {
     let asqer = document.getElementById("answer").innerText;
     let klop = error(asqer);
+    let asdf = examination2(asqer);
     if (asdf != 757) { 
         if (klop == 0) {
             document.getElementById("answer").innerText += "4";
@@ -67,6 +71,7 @@ function c4() {
 function c5() {
     let asqer = document.getElementById("answer").innerText;
     let klop = error(asqer);
+    let asdf = examination2(asqer);
     if (asdf != 757) { 
         if (klop == 0) {
             document.getElementById("answer").innerText += "5";
@@ -80,6 +85,7 @@ function c5() {
 function c6() {
     let asqer = document.getElementById("answer").innerText;
     let klop = error(asqer);
+    let asdf = examination2(asqer);
     if (asdf != 757) { 
         if (klop == 0) {
             document.getElementById("answer").innerText += "6";
@@ -93,6 +99,7 @@ function c6() {
 function c7() {
     let asqer = document.getElementById("answer").innerText;
     let klop = error(asqer);
+    let asdf = examination2(asqer);
     if (asdf != 757) { 
         if (klop == 0) {
             document.getElementById("answer").innerText += "7";
@@ -106,6 +113,7 @@ function c7() {
 function c8() {
     let asqer = document.getElementById("answer").innerText;
     let klop = error(asqer);
+    let asdf = examination2(asqer);
     if (asdf != 757) { 
         if (klop == 0) {
             document.getElementById("answer").innerText += "8";
@@ -119,6 +127,7 @@ function c8() {
 function c9() {
     let asqer = document.getElementById("answer").innerText;
     let klop = error(asqer);
+    let asdf = examination2(asqer);
     if (asdf != 757) { 
         if (klop == 0) {
             document.getElementById("answer").innerText += "9";
