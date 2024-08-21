@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    background-color: rgba(43, 67, 226, 0.743);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    width: 400px;
+}
+.tab {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.generate {
+    width: 100%;
+    border: none;
+    background-color: red;
+    height: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
