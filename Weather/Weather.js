@@ -1,3 +1,30 @@
+let body_fon = `
+    <div id="body">
+        <div id="input-fon">
+            <div id="InputAndSearch"> 
+                <input id="input" type="text" autocomplete="off">
+                <button id="search" onclick="search()">search</button>
+            </div>
+            <div id="fonchik">
+                <p id="Feelslike"></p>
+                <p id="Humidity"></p>
+                <p id="Pressure_In"></p>
+                <p id="Wind_Dir"></p>
+                <p id="Wind"></p>
+                <p id="text"></p>
+                <p id="Day"></p>
+                <p id="Temp"></p>
+                <p id="Last_Updated"></p>
+                <p id="Localtime"></p>
+                <p id="Country"></p>
+                <p id="Region"></p>
+                <p id="Name"></p>
+                <img src="" id="Icon" alt="">
+            </div>
+        </div> 
+    </div>  
+`;
+document.getElementById("fon-body").innerHTML += body_fon;
 async function search() {
     let city = document.getElementById("input").value;
     let baseUrl = 'http://api.weatherapi.com/v1/current.json?key=cd3972bb11ff450fac8120003242108&q=' + city +'&aqi=no';
